@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1D04CF1CAE0A4B00A52E93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D04CE1CAE0A4B00A52E93 /* main.m */; };
+		9A1D04D21CAE0A4B00A52E93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D04D11CAE0A4B00A52E93 /* AppDelegate.m */; };
+		9A1D04D51CAE0A4B00A52E93 /* ZHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D04D41CAE0A4B00A52E93 /* ZHTabBarController.m */; };
+		9A1D04D81CAE0A4B00A52E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1D04D61CAE0A4B00A52E93 /* Main.storyboard */; };
+		9A1D04DA1CAE0A4B00A52E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1D04D91CAE0A4B00A52E93 /* Assets.xcassets */; };
+		9A1D04DD1CAE0A4B00A52E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1D04DB1CAE0A4B00A52E93 /* LaunchScreen.storyboard */; };
+		9A1D04E81CAE0A4B00A52E93 /* ZHTabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D04E71CAE0A4B00A52E93 /* ZHTabBarDemoTests.m */; };
+		9A1D04F31CAE0A4B00A52E93 /* ZHTabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D04F21CAE0A4B00A52E93 /* ZHTabBarDemoUITests.m */; };
+		9A1D05181CAE523700A52E93 /* ZHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D05151CAE523700A52E93 /* ZHTabBar.m */; };
+		9A1D05191CAE523700A52E93 /* ZHTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D05171CAE523700A52E93 /* ZHTabBarButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A1D04E41CAE0A4B00A52E93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1D04C21CAE0A4A00A52E93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A1D04C91CAE0A4A00A52E93;
+			remoteInfo = ZHTabBarDemo;
+		};
+		9A1D04EF1CAE0A4B00A52E93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1D04C21CAE0A4A00A52E93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A1D04C91CAE0A4A00A52E93;
+			remoteInfo = ZHTabBarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A1D04CA1CAE0A4B00A52E93 /* ZHTabBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHTabBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1D04CE1CAE0A4B00A52E93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A1D04D01CAE0A4B00A52E93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A1D04D11CAE0A4B00A52E93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A1D04D31CAE0A4B00A52E93 /* ZHTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHTabBarController.h; sourceTree = "<group>"; };
+		9A1D04D41CAE0A4B00A52E93 /* ZHTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarController.m; sourceTree = "<group>"; };
+		9A1D04D71CAE0A4B00A52E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A1D04D91CAE0A4B00A52E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A1D04DC1CAE0A4B00A52E93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A1D04DE1CAE0A4B00A52E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1D04E31CAE0A4B00A52E93 /* ZHTabBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTabBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1D04E71CAE0A4B00A52E93 /* ZHTabBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarDemoTests.m; sourceTree = "<group>"; };
+		9A1D04E91CAE0A4B00A52E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1D04EE1CAE0A4B00A52E93 /* ZHTabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHTabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1D04F21CAE0A4B00A52E93 /* ZHTabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarDemoUITests.m; sourceTree = "<group>"; };
+		9A1D04F41CAE0A4B00A52E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1D05141CAE523700A52E93 /* ZHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTabBar.h; sourceTree = "<group>"; };
+		9A1D05151CAE523700A52E93 /* ZHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTabBar.m; sourceTree = "<group>"; };
+		9A1D05161CAE523700A52E93 /* ZHTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTabBarButton.h; sourceTree = "<group>"; };
+		9A1D05171CAE523700A52E93 /* ZHTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTabBarButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A1D04C71CAE0A4A00A52E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1D04E01CAE0A4B00A52E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1D04EB1CAE0A4B00A52E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1D04C11CAE0A4A00A52E93 = {
+			isa = PBXGroup;
+			children = (
+				9A1D04CC1CAE0A4B00A52E93 /* ZHTabBarDemo */,
+				9A1D04E61CAE0A4B00A52E93 /* ZHTabBarDemoTests */,
+				9A1D04F11CAE0A4B00A52E93 /* ZHTabBarDemoUITests */,
+				9A1D04CB1CAE0A4B00A52E93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A1D04CB1CAE0A4B00A52E93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1D04CA1CAE0A4B00A52E93 /* ZHTabBarDemo.app */,
+				9A1D04E31CAE0A4B00A52E93 /* ZHTabBarDemoTests.xctest */,
+				9A1D04EE1CAE0A4B00A52E93 /* ZHTabBarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A1D04CC1CAE0A4B00A52E93 /* ZHTabBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9A1D05131CAE523700A52E93 /* Classes */,
+				9A1D04D01CAE0A4B00A52E93 /* AppDelegate.h */,
+				9A1D04D11CAE0A4B00A52E93 /* AppDelegate.m */,
+				9A1D04D31CAE0A4B00A52E93 /* ZHTabBarController.h */,
+				9A1D04D41CAE0A4B00A52E93 /* ZHTabBarController.m */,
+				9A1D04D61CAE0A4B00A52E93 /* Main.storyboard */,
+				9A1D04D91CAE0A4B00A52E93 /* Assets.xcassets */,
+				9A1D04DB1CAE0A4B00A52E93 /* LaunchScreen.storyboard */,
+				9A1D04DE1CAE0A4B00A52E93 /* Info.plist */,
+				9A1D04CD1CAE0A4B00A52E93 /* Supporting Files */,
+			);
+			path = ZHTabBarDemo;
+			sourceTree = "<group>";
+		};
+		9A1D04CD1CAE0A4B00A52E93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A1D04CE1CAE0A4B00A52E93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A1D04E61CAE0A4B00A52E93 /* ZHTabBarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A1D04E71CAE0A4B00A52E93 /* ZHTabBarDemoTests.m */,
+				9A1D04E91CAE0A4B00A52E93 /* Info.plist */,
+			);
+			path = ZHTabBarDemoTests;
+			sourceTree = "<group>";
+		};
+		9A1D04F11CAE0A4B00A52E93 /* ZHTabBarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A1D04F21CAE0A4B00A52E93 /* ZHTabBarDemoUITests.m */,
+				9A1D04F41CAE0A4B00A52E93 /* Info.plist */,
+			);
+			path = ZHTabBarDemoUITests;
+			sourceTree = "<group>";
+		};
+		9A1D05131CAE523700A52E93 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A1D05141CAE523700A52E93 /* ZHTabBar.h */,
+				9A1D05151CAE523700A52E93 /* ZHTabBar.m */,
+				9A1D05161CAE523700A52E93 /* ZHTabBarButton.h */,
+				9A1D05171CAE523700A52E93 /* ZHTabBarButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A1D04C91CAE0A4A00A52E93 /* ZHTabBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1D04F71CAE0A4B00A52E93 /* Build configuration list for PBXNativeTarget "ZHTabBarDemo" */;
+			buildPhases = (
+				9A1D04C61CAE0A4A00A52E93 /* Sources */,
+				9A1D04C71CAE0A4A00A52E93 /* Frameworks */,
+				9A1D04C81CAE0A4A00A52E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHTabBarDemo;
+			productName = ZHTabBarDemo;
+			productReference = 9A1D04CA1CAE0A4B00A52E93 /* ZHTabBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A1D04E21CAE0A4B00A52E93 /* ZHTabBarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1D04FA1CAE0A4B00A52E93 /* Build configuration list for PBXNativeTarget "ZHTabBarDemoTests" */;
+			buildPhases = (
+				9A1D04DF1CAE0A4B00A52E93 /* Sources */,
+				9A1D04E01CAE0A4B00A52E93 /* Frameworks */,
+				9A1D04E11CAE0A4B00A52E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A1D04E51CAE0A4B00A52E93 /* PBXTargetDependency */,
+			);
+			name = ZHTabBarDemoTests;
+			productName = ZHTabBarDemoTests;
+			productReference = 9A1D04E31CAE0A4B00A52E93 /* ZHTabBarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A1D04ED1CAE0A4B00A52E93 /* ZHTabBarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1D04FD1CAE0A4B00A52E93 /* Build configuration list for PBXNativeTarget "ZHTabBarDemoUITests" */;
+			buildPhases = (
+				9A1D04EA1CAE0A4B00A52E93 /* Sources */,
+				9A1D04EB1CAE0A4B00A52E93 /* Frameworks */,
+				9A1D04EC1CAE0A4B00A52E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A1D04F01CAE0A4B00A52E93 /* PBXTargetDependency */,
+			);
+			name = ZHTabBarDemoUITests;
+			productName = ZHTabBarDemoUITests;
+			productReference = 9A1D04EE1CAE0A4B00A52E93 /* ZHTabBarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A1D04C21CAE0A4A00A52E93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mokyz;
+				TargetAttributes = {
+					9A1D04C91CAE0A4A00A52E93 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9A1D04E21CAE0A4B00A52E93 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9A1D04C91CAE0A4A00A52E93;
+					};
+					9A1D04ED1CAE0A4B00A52E93 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9A1D04C91CAE0A4A00A52E93;
+					};
+				};
+			};
+			buildConfigurationList = 9A1D04C51CAE0A4A00A52E93 /* Build configuration list for PBXProject "ZHTabBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A1D04C11CAE0A4A00A52E93;
+			productRefGroup = 9A1D04CB1CAE0A4B00A52E93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A1D04C91CAE0A4A00A52E93 /* ZHTabBarDemo */,
+				9A1D04E21CAE0A4B00A52E93 /* ZHTabBarDemoTests */,
+				9A1D04ED1CAE0A4B00A52E93 /* ZHTabBarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A1D04C81CAE0A4A00A52E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1D04DD1CAE0A4B00A52E93 /* LaunchScreen.storyboard in Resources */,
+				9A1D04DA1CAE0A4B00A52E93 /* Assets.xcassets in Resources */,
+				9A1D04D81CAE0A4B00A52E93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1D04E11CAE0A4B00A52E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1D04EC1CAE0A4B00A52E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A1D04C61CAE0A4A00A52E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1D04D51CAE0A4B00A52E93 /* ZHTabBarController.m in Sources */,
+				9A1D04D21CAE0A4B00A52E93 /* AppDelegate.m in Sources */,
+				9A1D04CF1CAE0A4B00A52E93 /* main.m in Sources */,
+				9A1D05191CAE523700A52E93 /* ZHTabBarButton.m in Sources */,
+				9A1D05181CAE523700A52E93 /* ZHTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1D04DF1CAE0A4B00A52E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1D04E81CAE0A4B00A52E93 /* ZHTabBarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1D04EA1CAE0A4B00A52E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1D04F31CAE0A4B00A52E93 /* ZHTabBarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A1D04E51CAE0A4B00A52E93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A1D04C91CAE0A4A00A52E93 /* ZHTabBarDemo */;
+			targetProxy = 9A1D04E41CAE0A4B00A52E93 /* PBXContainerItemProxy */;
+		};
+		9A1D04F01CAE0A4B00A52E93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A1D04C91CAE0A4A00A52E93 /* ZHTabBarDemo */;
+			targetProxy = 9A1D04EF1CAE0A4B00A52E93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A1D04D61CAE0A4B00A52E93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A1D04D71CAE0A4B00A52E93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A1D04DB1CAE0A4B00A52E93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A1D04DC1CAE0A4B00A52E93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A1D04F51CAE0A4B00A52E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A1D04F61CAE0A4B00A52E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A1D04F81CAE0A4B00A52E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mokyz.ZHTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A1D04F91CAE0A4B00A52E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHTabBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mokyz.ZHTabBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A1D04FB1CAE0A4B00A52E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mokyz.ZHTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHTabBarDemo.app/ZHTabBarDemo";
+			};
+			name = Debug;
+		};
+		9A1D04FC1CAE0A4B00A52E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHTabBarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mokyz.ZHTabBarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHTabBarDemo.app/ZHTabBarDemo";
+			};
+			name = Release;
+		};
+		9A1D04FE1CAE0A4B00A52E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mokyz.ZHTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHTabBarDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A1D04FF1CAE0A4B00A52E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHTabBarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mokyz.ZHTabBarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHTabBarDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A1D04C51CAE0A4A00A52E93 /* Build configuration list for PBXProject "ZHTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1D04F51CAE0A4B00A52E93 /* Debug */,
+				9A1D04F61CAE0A4B00A52E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1D04F71CAE0A4B00A52E93 /* Build configuration list for PBXNativeTarget "ZHTabBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1D04F81CAE0A4B00A52E93 /* Debug */,
+				9A1D04F91CAE0A4B00A52E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1D04FA1CAE0A4B00A52E93 /* Build configuration list for PBXNativeTarget "ZHTabBarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1D04FB1CAE0A4B00A52E93 /* Debug */,
+				9A1D04FC1CAE0A4B00A52E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1D04FD1CAE0A4B00A52E93 /* Build configuration list for PBXNativeTarget "ZHTabBarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1D04FE1CAE0A4B00A52E93 /* Debug */,
+				9A1D04FF1CAE0A4B00A52E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A1D04C21CAE0A4A00A52E93 /* Project object */;
+}
