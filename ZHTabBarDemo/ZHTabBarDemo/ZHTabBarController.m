@@ -87,4 +87,8 @@
     
     [self.tabBar addSubview:tabBar];
 }
+- (void)tabBar:(ZHTabBar *)tabBar didSelectedItemFrom:(NSInteger)from to:(NSInteger)to
+{
+    self.selectedIndex = to;
+}
 @end
